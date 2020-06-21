@@ -11,6 +11,9 @@ $ npm install
 ## Running the app
 
 ```bash
+# start mongodb docker image
+$ docker run --name mongo -p 27017:27017 -d mongo
+
 # development
 $ npm run start
 
